@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CS262-week4.iml" filepath="$PROJECT_DIR$/.idea/CS262-week4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CharacterCounter/CharacterCounter.iml" filepath="$PROJECT_DIR$/CharacterCounter/CharacterCounter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataAnalyzer/DataAnalyzer.iml" filepath="$PROJECT_DIR$/DataAnalyzer/DataAnalyzer.iml" />
+    </modules>
+  </component>
+</project>
