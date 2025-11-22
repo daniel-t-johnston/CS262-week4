@@ -36,7 +36,7 @@ final class CharacterCounter {
         Scanner in = new Scanner(System.in);
         System.out.println("Welcome to Character Counter");
         System.out.println("Please enter file name: ");
-        System.out.println("(Week 4/src/hw4p1test.txt)"); //file name from homework
+        System.out.println("(Week_4/src/hw4p1test.txt)"); //file name from homework
         String fileName = in.nextLine();
         in.close();
 
