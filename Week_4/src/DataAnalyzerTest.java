@@ -20,10 +20,10 @@ public class DataAnalyzerTest {
         double[] result = DataAnalyzer.readFile(getResourcePath("input2.txt"));
 
         assertEquals(4, result.length);
-        assertEquals(1.0, result[0], 0.001);
-        assertEquals(2.0, result[1], 0.001);
-        assertEquals(3.0, result[2], 0.001);
-        assertEquals(4.0, result[3], 0.001);
+        assertEquals(1.0, result[0]);
+        assertEquals(2.0, result[1]);
+        assertEquals(3.0, result[2]);
+        assertEquals(4.0, result[3]);
 
         double sum = 0;
         for (double d : result) { sum += d; }
