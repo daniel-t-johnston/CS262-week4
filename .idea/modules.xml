@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CS262-week4.iml" filepath="$PROJECT_DIR$/.idea/CS262-week4.iml" />
       <module fileurl="file://$PROJECT_DIR$/CharacterCounter/CharacterCounter.iml" filepath="$PROJECT_DIR$/CharacterCounter/CharacterCounter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Week 4/Week 4.iml" filepath="$PROJECT_DIR$/Week 4/Week 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week_4/Week_4.iml" filepath="$PROJECT_DIR$/Week_4/Week_4.iml" />
     </modules>
   </component>
 </project>

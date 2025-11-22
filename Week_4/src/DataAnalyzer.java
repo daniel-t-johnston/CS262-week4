@@ -5,9 +5,9 @@ import java.util.Scanner;
 import java.util.NoSuchElementException;
 
 /**
- This program processes a file containing a count followed by data values.
- If the file doesn't exist or the format is incorrect, you can specify
- another file.
+ * This program processes a file containing a count followed by data values.
+ * If the file doesn't exist or the format is incorrect, you can specify
+ * another file.
  */
 public class DataAnalyzer
 {

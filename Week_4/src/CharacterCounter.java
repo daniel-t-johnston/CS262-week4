@@ -14,6 +14,8 @@ final class CharacterCounter {
 
     /**
      * Main counter method that orchestrates file reading and output
+     *
+     *
      */
     public void runCount() {
         int[] counts = new int[3];
