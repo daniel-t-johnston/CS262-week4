@@ -5,9 +5,12 @@ import java.util.Scanner;
 import java.util.NoSuchElementException;
 
 /**
- * This program processes a file containing a count followed by data values.
- * If the file doesn't exist or the format is incorrect, you can specify
- * another file.
+ This program processes a file containing a count followed by data values.
+ If the file doesn't exist or the format is incorrect, you can specify
+ another file.
+ Assignment states to modify code on page 361 to remove call to hasNextInt
+ and hasNextDouble; however, code on page 361 has already done this. Exception
+ handling for NoSuchElementException added to file.
  */
 public class DataAnalyzer
 {
@@ -69,14 +72,24 @@ public class DataAnalyzer
      @param in the scanner that scans the data
      @return the data set
      */
-    public static double[] readData(Scanner in) throws IOException
+    public static double[] readData(Scanner in) throws IOException, NoSuchElementException
     {
-        int numberOfValues = in.nextInt(); // May throw NoSuchElementException
+        int numberOfValues = 0;
+        try {
+            numberOfValues = in.nextInt();
+        } catch (NoSuchElementException e) {
+            throw new NoSuchElementException("The file has no values");
+        }
+
         double[] data = new double[numberOfValues];
 
         for (int i = 0; i < numberOfValues; i++)
         {
-            data[i] = in.nextDouble(); // May throw NoSuchElementException
+            try {
+                data[i] = in.nextDouble();
+            } catch (Exception e) {
+                throw new NoSuchElementException("The data has no values");
+            }
         }
 
         if (in.hasNext())
